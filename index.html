@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="do_not_touch.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>Tentamen</h1>
+    <p>Nedan följer de uppgifter som behöver göras. Varje uppgift ska lösas inuti dess .problem-area div. CSS:en ska skrivas i style.css och JavaScript:en ska skrivas i script.js filen. Du får inte ändra någon CSS som är skriven i "do_not_touch.css" filen. Du får heller inte ändra någon HTML i denna filen som inte ligger under en .problem-area div. Bootstraps CSS är redan inladdat på sidan som hjälp för att lösa Bootstrap-uppgifterna. Lycka till!</p>
+    <p>För att bli godkänd behöver du klara alla G-uppgifterna.</p>
+    <p>För att få VG behöver du dessutom klara alla VG-uppgifterna.</p>
+
+    <h2>Inlämning</h2>
+    <p>Inlämningen får ske tidigast 10:00 och senast 13:00. Inlämningen ska ske på pingpong, ladda upp alla filer du har skapat eller ändrat i. Lägg dem under "Obligatorisk Tentamen 1" som finns på pingpong. Dubbelkolla att du inte har glömt något!
+    </p>
+    <h2>G-uppgifter</h2>
+
+    <div class="problem" id="problem1">
+      <h3>Uppgift 1</h3>
+      <p>Gör så att texten i rutan har röd färg och 24px i font storlek.</p>
+      <div class="problem-area">
+        <p>Denna texten ska vara röd och ha 24px i storlek</p>
+      </div>
+    </div>
+
+    <div class="problem" id="problem2">
+      <h3>Uppgift 2</h3>
+      <p>Gör så att de följande tre divarna ligger brevid varandra på samma rad. Du får inte ta bort klasserna som redan är satta inuti .problem-area. Men du får lov att lägga till hur många klasser du vill.</p>
+      <div class="problem-area">
+        <div class="box bg-red"></div>
+        <div class="box bg-blue"></div>
+        <div class="box bg-green"></div>
+      </div>
+    </div>
+
+    <div class="problem" id="problem3">
+      <h3>Uppgift 3</h3>
+      <p>Skapa en hyperlänk till sidan http://google.com inne i rutan.</p>
+      <div class="problem-area">
+
+      </div>
+    </div>
+
+    <div class="problem" id="problem4">
+      <h3>Uppgift 4</h3>
+      <p>I rutan ligger det flera olika frukter. Skapa en oordnad lista av alla dessa värdena. </p>
+      <div class="problem-area">
+        Banan
+        Äpple
+        Päron
+        Melon
+        Ananas
+      </div>
+    </div>
+
+    <div class="problem" id="problem5">
+      <h3>Uppgift 5</h3>
+      <p>I rutan ligger det flera rader med namn och åldrar. Skapa en tabell med två kolumner och fyra rader. I den första kolumnen ska alla namn ligga, i den andra kolumnen ska alla åldrar ligga. Lägg även till en header rad med värdena "Namn" och "Ålder" i varsin kolumn. Ta även bort de br-taggar som är utplacerade.</p>
+      <div class="problem-area">
+        Namn Ålder<br/>
+        Bob 13<br/>
+        Alice 22<br/>
+        Eve 45<br/>
+      </div>
+    </div>
+
+    <p style="margin-top: 50px;"><strong>Du behöver klara minst en av 6a och 6b.</strong></p>
+    <div class="problem" id="problem6a">
+      <h3>Uppgift 6a</h3>
+      <p>I rutan ligger det en knapp. Lägg till en event lyssnare på knappen med JavaScript och skriv ut meddelandet "Hello world" till konsolen när en användare trycker på knappen.</p>
+      <div class="problem-area">
+        <button id="problem6abutton">Click me!</button>
+      </div>
+    </div>
+
+    <div class="problem" id="problem6b">
+      <h3>Uppgift 6b</h3>
+      <p>Rutan är tom. Lägg till ett p element med texten "Hello world" med hjälp av JavaScript. Du får inte skriva någon HTML-kod inne i rutan för denna övning.</p>
+      <div class="problem-area">
+      </div>
+    </div>
+
+    <div class="problem" id="problem7">
+      <h3>Uppgift 7</h3>
+      <p>I rutan ligger det en text. Centrera texten i mitten av rutan, både horisontellt och vertikalt.</p>
+      <div class="problem-area">
+        <p>Centrera mig!</p>
+      </div>
+    </div>
+
+    <div class="problem" id="problem8">
+      <h3>Uppgift 8</h3>
+      <p>I rutan ligger det tre divar. Använd bootstrap grid system för att göra så att divarna ligger brevid varandra och tar upp lika mycket plats. Divarna ska också tillsammans fylla upp hela raden de ligger på (förutom den padding som finns). Du får inte ta bort de klasser som redan ligger inuti .problem-area. Däremot får du lägga till hur många klasser du vill.</p>
+      <div class="problem-area">
+        <div>
+          <div>
+            <div class="box bg-red"></div>
+            <div class="box bg-blue"></div>
+            <div class="box bg-green"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="problem" id="problem9">
+      <h3>Uppgift 9</h3>
+      <p>I rutan ligger det en knapp. Lägg på bootstrap klasser på knappen för att formatera den som en bootstrap "primary" knapp.</p>
+      <div class="problem-area">
+        <button type="button">Primary</button>
+      </div>
+    </div>
+
+    <div class="problem" id="problem10">
+      <h3>Uppgift 10</h3>
+      <p>I rutan ligger det en text. Använd dig av position-attributet samt left, top, right eller bottom för att positionera texten så att den alltid ligger längst ner i det högra hörnet. Notera att rutan har "position" satt till "relative" redan.</p>
+      <div class="problem-area">
+        <p>Lägg mig i nedersta högra hörnet!</p>
+      </div>
+    </div>
+
+    <div class="problem" id="problem11">
+      <h3>Uppgift 11</h3>
+      <p>Skapa ett formulär i rutan som innehåller två input fält. Ett fält för email, och ett fält för lösenord. Båda fälten ska anges som obligatoriska. För att få VG måste denna uppgiften vara löst med bra HTML5 validering.</p>
+      <div class="problem-area">
+
+      </div>
+    </div>
+
+    <h2>VG-uppgifter</h2>
+    <div class="problem" id="problem12">
+      <h3>Uppgift 12</h3>
+      <p>I rutan finns tre boxar. Ändra så att boxarna tillsammans tar upp hela utrymmet på raden. Boxarna ska vara lika stora. När breddstorleken på webbläsaren är under 540px så ska varje box ta upp en hel rad i sin bredd. Du får inte ta bort de klasser som redan ligger inuti .problem-area. Däremot får du lägga till hur många klasser du vill.</p>
+      <div class="problem-area">
+        <div class="box bg-red"></div>
+        <div class="box bg-blue"></div>
+        <div class="box bg-green"></div>
+      </div>
+    </div>
+
+    <div class="problem" id="problem13">
+      <h3>Uppgift 13</h3>
+      <p>Använd flexbox för att formattera divarna i rutan så att de är placerade på samma sätt som anges i bilden. Du får inte lov att ändra på koden inne i .problem-area för denna övning.</p>
+      <img height="200" src="images/problem13.png" alt="problem13">
+      <div class="problem-area">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+      </div>
+    </div>
+
+    <div class="problem" id="problem14">
+      <h3>Uppgift 14</h3>
+      <p>Skapa en ny sida och återskapa designen enligt given <a href="images/problem14.png" target="_blank">bild</a> (högerklicka på bilden och välj "öppna bild i ny flik" för att se en större version, eller tryck på länken). Döp den nya sidan till problem14.html. För att få VG behöver du använda bra semantiska HTML5 element. Vi kommer inte att bedöma om du använder rätt färger, storlekar, typsnitt eller text. Det viktiga i problemet är att du har samma layout. Du får lov att skapa en ny .css fil för denna övningen, döp den då till problem14.css.</p>
+      <a href="images/problem14.png" target="_blank"><img src="images/problem14.png" height="300" alt="problem14"></a>
+    </div>
+  </main>
+</body>
+</html>
