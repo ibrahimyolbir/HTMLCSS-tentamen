@@ -1,0 +1,50 @@
+#problem1  .problem-area p{
+    color: red;
+    font-size: 24px;
+}
+
+
+#problem2 .problem-area {
+    display: flex;
+}
+
+#problem7 .problem-area{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#problem10 .problem-area{
+    position: relative;
+}
+
+#problem10 .problem-area p{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+}
+
+
+
+#problem11 .problem-area input{
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+
+@media screen and (max-width:540px){
+   #problem12 .problem-area .problem12responsive{
+    flex: 0 0 100%;
+        width: 0%;
+    }
+} 
+
+#problem13 .problem-area{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    align-content: space-between;
+    justify-content: center;
+}
+ 

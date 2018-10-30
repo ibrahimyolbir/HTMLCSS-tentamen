@@ -1,0 +1,57 @@
+#problem14 header {
+    background-color: #381feb;
+    color: #fff;
+    height: 350px;
+    width: 100%;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding: 180px 0px 0px 30px;
+}
+
+
+
+#problem14 .side-content{
+    float: left;
+    width: 30%;
+    height: 550px;
+    background-color: #fafafa;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 14px;
+    border-top: 5px solid #eaa944;  
+    text-align: justify;
+}
+
+
+#problem14 .main-content{
+    float: left;
+    margin-top: 40px;
+    width: 68%;
+    height: 200px;
+    padding: 10px;
+    font-size: 12px;
+    border-top: 5px solid #efecfd; 
+    text-align: justify;
+    margin-left: 10px;
+}
+
+ #problem14 footer{
+    background-color: #1b0d70;
+    color: #fff;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+    padding-top: 88px;
+    font-size: 14px;
+    font-family: sans-serif;
+    } 
+     
